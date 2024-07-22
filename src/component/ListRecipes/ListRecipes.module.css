@@ -1,0 +1,37 @@
+.recipeList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipeItem {
+    
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 450px;
+  
+    border-radius: 36px;
+    border: 2px solid rgb(161 35 43);
+}
+
+.recipeItem:hover {
+    box-shadow: 2px 5px 2px rgb(171, 37, 36, 0.5);
+}
+.recipeImg {
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    width: 450px;
+}
+
+.recipeText {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.ingredientTitle {
+    margin-left: -20px;
+    font-size: 20px;
+}
+
+.ingredientItem {
+    list-style: circle;
+}
